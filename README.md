@@ -6,11 +6,11 @@ The project aims to train a neural network to detect two classes in images and v
 - Safety helmets
 - Human heads without helmets
 
-## Dataset Used
+## Dataset
 
 The [Hard Hat Universe](https://universe.roboflow.com/universe-datasets/hard-hat-universe-0dy7t) dataset was utilized, containing 4912 images in the train set. The dataset includes 5 label types: 'head', 'helmet', 'hi-viz helmet', 'hi-viz vest', and 'person'. During data preparation, the dataset was cleaned by removing unnecessary labels and empty images without labels, resulting in only images with 'head' and 'helmet' labels remaining.
 
-## Model Used
+## Model
 
 A pre-trained YOLOv8 model was used, which was fine-tuned on the cleaned dataset to improve detection accuracy.
 
